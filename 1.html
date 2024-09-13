@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style1.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <strong>‎ </strong>
+</div>
+
+<script>
+
+let mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+</html>
+    <div class="banner">
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+ <div class="content1">
+    <h2>Welcome to HummingBirD Bike, your ultimate destination for discovering top-quality bikes tailored for every journey. </h2>
+ <p>Our homepage offers a glimpse into our passion for cycling and the diverse range of bikes we provide. 
+    From sleek road bikes for speed enthusiasts to rugged mountain bikes built for adventure, we cater to every rider's needs. 
+    Dive into our collection and find the perfect bike that not only meets your performance needs but also enhances your riding experience.
+     Join us in celebrating the freedom of the open road and the thrill of new trails with our exceptional range of bicycles.</p><br>
+
+<p>Investing in a bike offers numerous benefits that can significantly enhance your lifestyle. 
+    <p>Not only does cycling provide excellent exercise, promoting cardiovascular health and muscle strength with minimal impact on your joints, </p>
+ <p>but it also supports eco-friendly living by reducing carbon emissions. Bikes are a cost-effective alternative to cars, with lower maintenance and no fuel expenses,</p>
+ <p>making them a practical choice for daily commutes or leisure rides. Moreover, they can help you navigate through traffic more efficiently and find parking with ease. </p>
+    <p> Beyond the practical advantages, cycling can be a source of enjoyment and adventure, allowing you to explore new areas and connect with a vibrant community of fellow riders. </p>
+     <p>Embracing a bike can transform your routine, offering both physical and social rewards while contributing to a greener planet.</p>
+     <a href="Index.html"><button>Back to HomePage</button></a>
+
+
+
+
+    </div>
+</style> 
+</body>
+
+</html>
